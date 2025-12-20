@@ -1,8 +1,8 @@
 ﻿namespace BloodBankAPI.DTOs
 {
-    public class DonorDto
+    public class AdminUpdateDonorDto
     {
-        // Basic info
+        // ===== BASIC INFO =====
         public string? BloodGroup { get; set; }
         public int? Age { get; set; }
         public string? Gender { get; set; }
@@ -11,7 +11,7 @@
         public DateTime? DateOfBirth { get; set; }
         public string? NationalIdNumber { get; set; }
 
-        // Address info
+        // ===== ADDRESS =====
         public string? PresentAddress { get; set; }
         public string? PresentPoliceStation { get; set; }
         public string? PresentDistrict { get; set; }
@@ -19,18 +19,18 @@
         public string? PermanentPoliceStation { get; set; }
         public string? PermanentDistrict { get; set; }
 
-        // Location
+        // ===== LOCATION =====
         public double? Latitude { get; set; }
         public double? Longitude { get; set; }
 
-        // Donation info
+        // ===== DONATION =====
         public DateTime? LastDonationDate { get; set; }
-        public bool IsAvailable { get; set; } = true;
+        public bool? IsAvailable { get; set; }
 
-        // Profile photo
+        // ===== PHOTO =====
         public string? PhotoUrl { get; set; }
 
-        // Medical info
+        // ===== MEDICAL =====
         public string? MedicalInfo { get; set; }
     }
 }

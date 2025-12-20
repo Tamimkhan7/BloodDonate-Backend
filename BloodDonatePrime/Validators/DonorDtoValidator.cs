@@ -1,5 +1,4 @@
-﻿
-using BloodBankAPI.DTOs;
+﻿using BloodBankAPI.DTOs;
 using FluentValidation;
 
 namespace BloodBankAPI.Validators
@@ -11,9 +10,16 @@ namespace BloodBankAPI.Validators
             RuleFor(x => x.BloodGroup)
                 .Matches(@"^(A|B|AB|O)[+-]$")
                 .When(x => !string.IsNullOrEmpty(x.BloodGroup))
-               .WithMessage("Boold Group is invalid");
-            RuleFor(x => x.Age).InclusiveBetween(18, 65).WithMessage("Age must be between 18 and 65");
-            RuleFor(x => x.Address).NotEmpty().When(x => !string.IsNullOrEmpty(x.Address));
+                .WithMessage("Blood Group is invalid");
+
+            RuleFor(x => x.Age)
+                .InclusiveBetween(18, 65)
+                .When(x => x.Age.HasValue)
+                .WithMessage("Age must be between 18 and 65");
+
+            // Address validation
+            RuleFor(x => x.PresentAddress).NotEmpty().When(x => !string.IsNullOrEmpty(x.PresentAddress));
+            RuleFor(x => x.PermanentAddress).NotEmpty().When(x => !string.IsNullOrEmpty(x.PermanentAddress));
         }
     }
 }

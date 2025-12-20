@@ -1,8 +1,29 @@
 [
   {
     "ContainingType": "BloodBankAPI.Controllers.AdminController",
+    "Method": "UpdateDonor",
+    "RelativePath": "api/admin/donor/{userId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "BloodBankAPI.DTOs.AdminUpdateDonorDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BloodBankAPI.Controllers.AdminController",
     "Method": "ToggleBan",
-    "RelativePath": "api/Admin/toggleBan/{id}",
+    "RelativePath": "api/admin/toggleBan/{id}",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -18,7 +39,7 @@
   {
     "ContainingType": "BloodBankAPI.Controllers.AdminController",
     "Method": "GetAllUsers",
-    "RelativePath": "api/Admin/users",
+    "RelativePath": "api/admin/users",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -85,6 +106,16 @@
   },
   {
     "ContainingType": "BloodBankAPI.Controllers.DonorsController",
+    "Method": "GetDistricts",
+    "RelativePath": "api/Donors/districts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BloodBankAPI.Controllers.DonorsController",
     "Method": "CreateOrUpdateMe",
     "RelativePath": "api/Donors/me",
     "HttpMethod": "POST",
@@ -123,13 +154,18 @@
         "IsRequired": false
       },
       {
-        "Name": "lat",
-        "Type": "System.Nullable\u00601[[System.Double, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Name": "district",
+        "Type": "System.String",
         "IsRequired": false
       },
       {
-        "Name": "lon",
-        "Type": "System.Nullable\u00601[[System.Double, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
         "IsRequired": false
       }
     ],

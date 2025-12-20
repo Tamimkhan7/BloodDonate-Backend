@@ -8,7 +8,6 @@ namespace BloodBankAPI.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    [Authorize]
     public class DonorsController : ControllerBase
     {
         private readonly IDonorService _donorService;
@@ -18,14 +17,15 @@ namespace BloodBankAPI.Controllers
             Guid.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)!);
 
         [HttpPost("me")]
+        [Authorize]
         public async Task<IActionResult> CreateOrUpdateMe([FromBody] DonorDto dto)
         {
             var donor = await _donorService.CreateOrUpdateDonorAsync(GetUserId(), dto);
             return Ok(donor);
         }
 
-        // ✅ FIXED
         [HttpGet("me")]
+        [Authorize]
         public async Task<IActionResult> GetMe()
         {
             var donor = await _donorService.GetByUserIdAsync(GetUserId());
@@ -33,16 +33,26 @@ namespace BloodBankAPI.Controllers
             return Ok(donor);
         }
 
-
         [HttpGet("search")]
         [AllowAnonymous]
         public async Task<IActionResult> Search(
             [FromQuery] string? bloodGroup,
-            [FromQuery] double? lat,
-            [FromQuery] double? lon)
+            [FromQuery] string? district,
+            [FromQuery] int page = 1,
+            [FromQuery] int pageSize = 10)
         {
-            var donors = await _donorService.SearchDonorsAsync(bloodGroup, lat, lon);
-            return Ok(donors);
+            var result = await _donorService.SearchDonorsAsync(
+                bloodGroup, district, page, pageSize);
+
+            return Ok(result);
+        }
+
+        [HttpGet("districts")]
+        [AllowAnonymous]
+        public async Task<IActionResult> GetDistricts()
+        {
+            var districts = await _donorService.GetAvailableDistrictsAsync();
+            return Ok(districts);
         }
     }
 }
