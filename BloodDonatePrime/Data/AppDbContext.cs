@@ -9,9 +9,11 @@ namespace BloodBankAPI.Data
 
         public DbSet<User> Users => Set<User>();
         public DbSet<Donor> Donors => Set<Donor>();
-        public DbSet<ContactMessage> ContactMessages => Set<ContactMessage>();
         //DbSet<ContactMessage> ContactMessages { get; set; }
+        public DbSet<ContactMessage> ContactMessages => Set<ContactMessage>();
         public DbSet<DonationHistory> DonationHistories => Set<DonationHistory>();
+        //public DbSet<BloodRequest> BloodRequests { get; set; }
+        public DbSet<BloodRequest> BloodRequests => Set<BloodRequest>();
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

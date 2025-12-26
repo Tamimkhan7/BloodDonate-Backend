@@ -3,24 +3,72 @@
   "WorkspaceRootPath": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|c:\\users\\tamim\\onedrive\\desktop\\api project\\bloodbank\\blooddonateprime\\blooddonateprime\\services\\donorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|solutionrelative:blooddonateprime\\services\\donorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|c:\\users\\tamim\\onedrive\\desktop\\api project\\bloodbank\\blooddonateprime\\blooddonateprime\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|solutionrelative:blooddonateprime\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|c:\\users\\tamim\\onedrive\\desktop\\api project\\bloodbank\\blooddonateprime\\blooddonateprime\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|solutionrelative:blooddonateprime\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|c:\\users\\tamim\\onedrive\\desktop\\api project\\bloodbank\\blooddonateprime\\blooddonateprime\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|solutionrelative:blooddonateprime\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|c:\\users\\tamim\\onedrive\\desktop\\api project\\bloodbank\\blooddonateprime\\blooddonateprime\\controllers\\donorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|solutionrelative:blooddonateprime\\controllers\\donorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|c:\\users\\tamim\\onedrive\\desktop\\api project\\bloodbank\\blooddonateprime\\blooddonateprime\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|solutionrelative:blooddonateprime\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|c:\\users\\tamim\\onedrive\\desktop\\api project\\bloodbank\\blooddonateprime\\blooddonateprime\\dtos\\adminupdatedonordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|solutionrelative:blooddonateprime\\dtos\\adminupdatedonordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|c:\\users\\tamim\\onedrive\\desktop\\api project\\bloodbank\\blooddonateprime\\blooddonateprime\\dtos\\createbloodrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|solutionrelative:blooddonateprime\\dtos\\createbloodrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|c:\\users\\tamim\\onedrive\\desktop\\api project\\bloodbank\\blooddonateprime\\blooddonateprime\\dtos\\adminbloodrequestreplydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|solutionrelative:blooddonateprime\\dtos\\adminbloodrequestreplydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|c:\\users\\tamim\\onedrive\\desktop\\api project\\bloodbank\\blooddonateprime\\blooddonateprime\\models\\bloodrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|solutionrelative:blooddonateprime\\models\\bloodrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|c:\\users\\tamim\\onedrive\\desktop\\api project\\bloodbank\\blooddonateprime\\blooddonateprime\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|solutionrelative:blooddonateprime\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|c:\\users\\tamim\\onedrive\\desktop\\api project\\bloodbank\\blooddonateprime\\blooddonateprime\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|solutionrelative:blooddonateprime\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|c:\\users\\tamim\\onedrive\\desktop\\api project\\bloodbank\\blooddonateprime\\blooddonateprime\\controllers\\bloodrequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|solutionrelative:blooddonateprime\\controllers\\bloodrequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|c:\\users\\tamim\\onedrive\\desktop\\api project\\bloodbank\\blooddonateprime\\blooddonateprime\\services\\idonorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|solutionrelative:blooddonateprime\\services\\idonorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|c:\\users\\tamim\\onedrive\\desktop\\api project\\bloodbank\\blooddonateprime\\blooddonateprime\\services\\donorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|solutionrelative:blooddonateprime\\services\\donorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|c:\\users\\tamim\\onedrive\\desktop\\api project\\bloodbank\\blooddonateprime\\blooddonateprime\\controllers\\donorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|solutionrelative:blooddonateprime\\controllers\\donorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|c:\\users\\tamim\\onedrive\\desktop\\api project\\bloodbank\\blooddonateprime\\blooddonateprime\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|solutionrelative:blooddonateprime\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|c:\\users\\tamim\\onedrive\\desktop\\api project\\bloodbank\\blooddonateprime\\blooddonateprime\\models\\donor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|solutionrelative:blooddonateprime\\models\\donor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|c:\\users\\tamim\\onedrive\\desktop\\api project\\bloodbank\\blooddonateprime\\blooddonateprime\\models\\contactmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|solutionrelative:blooddonateprime\\models\\contactmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|c:\\users\\tamim\\onedrive\\desktop\\api project\\bloodbank\\blooddonateprime\\blooddonateprime\\models\\donationhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|solutionrelative:blooddonateprime\\models\\donationhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|c:\\users\\tamim\\onedrive\\desktop\\api project\\bloodbank\\blooddonateprime\\blooddonateprime\\models\\searchresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,16 +79,32 @@
       "RelativeMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|solutionrelative:blooddonateprime\\models\\donorwithdistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|c:\\users\\tamim\\onedrive\\desktop\\api project\\bloodbank\\blooddonateprime\\blooddonateprime\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|solutionrelative:blooddonateprime\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|c:\\users\\tamim\\onedrive\\desktop\\api project\\bloodbank\\blooddonateprime\\blooddonateprime\\validators\\registerdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|solutionrelative:blooddonateprime\\validators\\registerdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|c:\\users\\tamim\\onedrive\\desktop\\api project\\bloodbank\\blooddonateprime\\blooddonateprime\\validators\\logindtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|solutionrelative:blooddonateprime\\validators\\logindtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|c:\\users\\tamim\\onedrive\\desktop\\api project\\bloodbank\\blooddonateprime\\blooddonateprime\\validators\\donordtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|solutionrelative:blooddonateprime\\validators\\donordtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|c:\\users\\tamim\\onedrive\\desktop\\api project\\bloodbank\\blooddonateprime\\blooddonateprime\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|solutionrelative:blooddonateprime\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|c:\\users\\tamim\\onedrive\\desktop\\api project\\bloodbank\\blooddonateprime\\blooddonateprime\\services\\icontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|solutionrelative:blooddonateprime\\services\\icontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|c:\\users\\tamim\\onedrive\\desktop\\api project\\bloodbank\\blooddonateprime\\blooddonateprime\\models\\donor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|solutionrelative:blooddonateprime\\models\\donor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|c:\\users\\tamim\\onedrive\\desktop\\api project\\bloodbank\\blooddonateprime\\blooddonateprime\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|solutionrelative:blooddonateprime\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|c:\\users\\tamim\\onedrive\\desktop\\api project\\bloodbank\\blooddonateprime\\blooddonateprime\\migrations\\20251223162146_addbloodrequests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25723362-A5CB-4768-9F00-AC31EB548D3C}|BloodDonatePrime\\BloodBankAPI.csproj|solutionrelative:blooddonateprime\\migrations\\20251223162146_addbloodrequests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,24 +114,220 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 13,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "AdminUpdateDonorDto.cs",
+              "DocumentMoniker": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\DTOs\\AdminUpdateDonorDto.cs",
+              "RelativeDocumentMoniker": "BloodDonatePrime\\DTOs\\AdminUpdateDonorDto.cs",
+              "ToolTip": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\DTOs\\AdminUpdateDonorDto.cs",
+              "RelativeToolTip": "BloodDonatePrime\\DTOs\\AdminUpdateDonorDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T17:09:12.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\Program.cs",
+              "RelativeDocumentMoniker": "BloodDonatePrime\\Program.cs",
+              "ToolTip": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\Program.cs",
+              "RelativeToolTip": "BloodDonatePrime\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T17:08:42.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20251223162146_AddBloodRequests.cs",
+              "DocumentMoniker": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\Migrations\\20251223162146_AddBloodRequests.cs",
+              "RelativeDocumentMoniker": "BloodDonatePrime\\Migrations\\20251223162146_AddBloodRequests.cs",
+              "ToolTip": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\Migrations\\20251223162146_AddBloodRequests.cs",
+              "RelativeToolTip": "BloodDonatePrime\\Migrations\\20251223162146_AddBloodRequests.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T16:21:47.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BloodRequestsController.cs",
+              "DocumentMoniker": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\Controllers\\BloodRequestsController.cs",
+              "RelativeDocumentMoniker": "BloodDonatePrime\\Controllers\\BloodRequestsController.cs",
+              "ToolTip": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\Controllers\\BloodRequestsController.cs",
+              "RelativeToolTip": "BloodDonatePrime\\Controllers\\BloodRequestsController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T16:09:53.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminBloodRequestReplyDto.cs",
+              "DocumentMoniker": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\DTOs\\AdminBloodRequestReplyDto.cs",
+              "RelativeDocumentMoniker": "BloodDonatePrime\\DTOs\\AdminBloodRequestReplyDto.cs",
+              "ToolTip": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\DTOs\\AdminBloodRequestReplyDto.cs",
+              "RelativeToolTip": "BloodDonatePrime\\DTOs\\AdminBloodRequestReplyDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T16:09:06.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateBloodRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\DTOs\\CreateBloodRequestDto.cs",
+              "RelativeDocumentMoniker": "BloodDonatePrime\\DTOs\\CreateBloodRequestDto.cs",
+              "ToolTip": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\DTOs\\CreateBloodRequestDto.cs",
+              "RelativeToolTip": "BloodDonatePrime\\DTOs\\CreateBloodRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T16:06:57.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BloodRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\Models\\BloodRequest.cs",
+              "RelativeDocumentMoniker": "BloodDonatePrime\\Models\\BloodRequest.cs",
+              "ToolTip": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\Models\\BloodRequest.cs",
+              "RelativeToolTip": "BloodDonatePrime\\Models\\BloodRequest.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T16:02:56.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "BloodDonatePrime\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "BloodDonatePrime\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T15:02:17.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ContactMessage.cs",
+              "DocumentMoniker": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\Models\\ContactMessage.cs",
+              "RelativeDocumentMoniker": "BloodDonatePrime\\Models\\ContactMessage.cs",
+              "ToolTip": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\Models\\ContactMessage.cs",
+              "RelativeToolTip": "BloodDonatePrime\\Models\\ContactMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T15:01:57.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DonationHistory.cs",
+              "DocumentMoniker": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\Models\\DonationHistory.cs",
+              "RelativeDocumentMoniker": "BloodDonatePrime\\Models\\DonationHistory.cs",
+              "ToolTip": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\Models\\DonationHistory.cs",
+              "RelativeToolTip": "BloodDonatePrime\\Models\\DonationHistory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T15:01:38.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\Models\\User.cs",
+              "RelativeDocumentMoniker": "BloodDonatePrime\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\Models\\User.cs",
+              "RelativeToolTip": "BloodDonatePrime\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T14:59:42.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RegisterDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\Validators\\RegisterDtoValidator.cs",
+              "RelativeDocumentMoniker": "BloodDonatePrime\\Validators\\RegisterDtoValidator.cs",
+              "ToolTip": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\Validators\\RegisterDtoValidator.cs",
+              "RelativeToolTip": "BloodDonatePrime\\Validators\\RegisterDtoValidator.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T14:43:32.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\appsettings.json",
+              "RelativeDocumentMoniker": "BloodDonatePrime\\appsettings.json",
+              "ToolTip": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\appsettings.json",
+              "RelativeToolTip": "BloodDonatePrime\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-23T14:43:31.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LoginDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\Validators\\LoginDtoValidator.cs",
+              "RelativeDocumentMoniker": "BloodDonatePrime\\Validators\\LoginDtoValidator.cs",
+              "ToolTip": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\Validators\\LoginDtoValidator.cs",
+              "RelativeToolTip": "BloodDonatePrime\\Validators\\LoginDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T14:42:51.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DonorDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\Validators\\DonorDtoValidator.cs",
+              "RelativeDocumentMoniker": "BloodDonatePrime\\Validators\\DonorDtoValidator.cs",
+              "ToolTip": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\Validators\\DonorDtoValidator.cs",
+              "RelativeToolTip": "BloodDonatePrime\\Validators\\DonorDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T14:42:46.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ContactsController.cs",
+              "DocumentMoniker": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\Controllers\\ContactsController.cs",
+              "RelativeDocumentMoniker": "BloodDonatePrime\\Controllers\\ContactsController.cs",
+              "ToolTip": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\Controllers\\ContactsController.cs",
+              "RelativeToolTip": "BloodDonatePrime\\Controllers\\ContactsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T14:36:40.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "BloodDonatePrime\\Controllers\\AdminController.cs",
               "ToolTip": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\Controllers\\AdminController.cs",
               "RelativeToolTip": "BloodDonatePrime\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-20T21:54:35.411Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-20T21:54:35.411Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 17,
               "Title": "SearchResult.cs",
               "DocumentMoniker": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\Models\\SearchResult.cs",
               "RelativeDocumentMoniker": "BloodDonatePrime\\Models\\SearchResult.cs",
@@ -75,12 +335,11 @@
               "RelativeToolTip": "BloodDonatePrime\\Models\\SearchResult.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-20T20:17:52.055Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-20T20:17:52.055Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 18,
               "Title": "DonorWithDistance.cs",
               "DocumentMoniker": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\Models\\DonorWithDistance.cs",
               "RelativeDocumentMoniker": "BloodDonatePrime\\Models\\DonorWithDistance.cs",
@@ -88,12 +347,11 @@
               "RelativeToolTip": "BloodDonatePrime\\Models\\DonorWithDistance.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-20T20:17:25.543Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-20T20:17:25.543Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 24,
               "Title": "IContactService.cs",
               "DocumentMoniker": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\Services\\IContactService.cs",
               "RelativeDocumentMoniker": "BloodDonatePrime\\Services\\IContactService.cs",
@@ -101,83 +359,77 @@
               "RelativeToolTip": "BloodDonatePrime\\Services\\IContactService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-20T20:15:19.077Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-20T20:15:19.077Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "DonorsController.cs",
               "DocumentMoniker": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\Controllers\\DonorsController.cs",
               "RelativeDocumentMoniker": "BloodDonatePrime\\Controllers\\DonorsController.cs",
               "ToolTip": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\Controllers\\DonorsController.cs",
               "RelativeToolTip": "BloodDonatePrime\\Controllers\\DonorsController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAIwC4AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAkwDkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-20T19:41:13Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-20T19:41:13Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "IDonorService.cs",
               "DocumentMoniker": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\Services\\IDonorService.cs",
               "RelativeDocumentMoniker": "BloodDonatePrime\\Services\\IDonorService.cs",
               "ToolTip": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\Services\\IDonorService.cs",
               "RelativeToolTip": "BloodDonatePrime\\Services\\IDonorService.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-20T19:40:55.936Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-20T19:40:55.936Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "BloodDonatePrime\\Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\Data\\AppDbContext.cs",
               "RelativeToolTip": "BloodDonatePrime\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-20T19:40:23.339Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-20T19:40:23.339Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
               "Title": "DonorService.cs",
               "DocumentMoniker": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\Services\\DonorService.cs",
               "RelativeDocumentMoniker": "BloodDonatePrime\\Services\\DonorService.cs",
               "ToolTip": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\Services\\DonorService.cs",
               "RelativeToolTip": "BloodDonatePrime\\Services\\DonorService.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAcwEgAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAkwKoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-20T19:39:51.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-20T19:39:51.82Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "Donor.cs",
               "DocumentMoniker": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\Models\\Donor.cs",
               "RelativeDocumentMoniker": "BloodDonatePrime\\Models\\Donor.cs",
               "ToolTip": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\Models\\Donor.cs",
               "RelativeToolTip": "BloodDonatePrime\\Models\\Donor.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAqwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-20T19:39:48.015Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-20T19:39:48.015Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "SeedData.cs",
               "DocumentMoniker": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\Data\\SeedData.cs",
               "RelativeDocumentMoniker": "BloodDonatePrime\\Data\\SeedData.cs",
               "ToolTip": "C:\\Users\\Tamim\\OneDrive\\Desktop\\API Project\\BloodBank\\BloodDonatePrime\\BloodDonatePrime\\Data\\SeedData.cs",
               "RelativeToolTip": "BloodDonatePrime\\Data\\SeedData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABsAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAABsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-19T13:27:06.555Z",
               "EditorCaption": ""

@@ -144,6 +144,103 @@
         }
       }
     },
+    "/api/blood-requests": {
+      "post": {
+        "tags": [
+          "BloodRequests"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateBloodRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateBloodRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateBloodRequestDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/blood-requests/me": {
+      "get": {
+        "tags": [
+          "BloodRequests"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/blood-requests/admin": {
+      "get": {
+        "tags": [
+          "BloodRequests"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/blood-requests/admin/{id}": {
+      "put": {
+        "tags": [
+          "BloodRequests"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AdminBloodRequestReplyDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AdminBloodRequestReplyDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AdminBloodRequestReplyDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Contacts": {
       "post": {
         "tags": [
@@ -326,6 +423,20 @@
   },
   "components": {
     "schemas": {
+      "AdminBloodRequestReplyDto": {
+        "type": "object",
+        "properties": {
+          "status": {
+            "type": "string",
+            "nullable": true
+          },
+          "adminReply": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "AdminUpdateDonorDto": {
         "type": "object",
         "properties": {
@@ -429,6 +540,37 @@
             "nullable": true
           },
           "message": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateBloodRequestDto": {
+        "required": [
+          "bags",
+          "bloodGroup",
+          "neededDate"
+        ],
+        "type": "object",
+        "properties": {
+          "bloodGroup": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "bags": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "neededDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "extraContact": {
+            "type": "string",
+            "nullable": true
+          },
+          "reason": {
             "type": "string",
             "nullable": true
           }
@@ -588,6 +730,9 @@
     },
     {
       "name": "Auth"
+    },
+    {
+      "name": "BloodRequests"
     },
     {
       "name": "Contacts"

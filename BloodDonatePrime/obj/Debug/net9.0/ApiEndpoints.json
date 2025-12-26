@@ -79,6 +79,63 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BloodBankAPI.Controllers.BloodRequestsController",
+    "Method": "Create",
+    "RelativePath": "api/blood-requests",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BloodBankAPI.DTOs.CreateBloodRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BloodBankAPI.Controllers.BloodRequestsController",
+    "Method": "GetAll",
+    "RelativePath": "api/blood-requests/admin",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BloodBankAPI.Controllers.BloodRequestsController",
+    "Method": "Reply",
+    "RelativePath": "api/blood-requests/admin/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "BloodBankAPI.DTOs.AdminBloodRequestReplyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BloodBankAPI.Controllers.BloodRequestsController",
+    "Method": "MyRequests",
+    "RelativePath": "api/blood-requests/me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BloodBankAPI.Controllers.ContactsController",
     "Method": "Create",
     "RelativePath": "api/Contacts",
