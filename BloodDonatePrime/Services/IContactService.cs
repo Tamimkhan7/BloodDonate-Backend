@@ -7,5 +7,6 @@ namespace BloodBankAPI.Services
     {
         Task<ContactMessage> CreateMessageAsync(ContactMessageDto dto);
         Task<IEnumerable<ContactMessage>> GetAllMessagesAsync();
+        Task<ContactMessage?> ReplyAsync(Guid id, string reply);
     }
 }

@@ -27,5 +27,15 @@ namespace BloodBankAPI.Controllers
             var list = await _service.GetAllMessagesAsync();
             return Ok(list);
         }
+
+        // Admin reply API
+        [HttpPut("{id}/reply")]
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> Reply(Guid id, [FromBody] AdminReplyDto dto)
+        {
+            var msg = await _service.ReplyAsync(id, dto.AdminReply);
+            if (msg == null) return NotFound();
+            return Ok(msg);
+        }
     }
 }

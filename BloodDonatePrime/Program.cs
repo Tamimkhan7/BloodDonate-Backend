@@ -1,4 +1,5 @@
 using BloodBankAPI.Data;
+using BloodBankAPI.Models;
 using BloodBankAPI.Services;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -35,10 +36,14 @@ builder.Services.AddSwaggerGen(c =>
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+builder.Services.Configure<SmtpSettings>(builder.Configuration.GetSection("Smtp"));
+
+
 // Dependency Injection
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IDonorService, DonorService>();
 builder.Services.AddScoped<IContactService, ContactService>();
+builder.Services.AddScoped<EmailService>();
 
 // JWT Authentication
 var jwtKey = builder.Configuration["Jwt:Key"] ?? "ChangeThisVeryStrongKey";

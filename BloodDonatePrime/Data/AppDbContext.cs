@@ -14,6 +14,9 @@ namespace BloodBankAPI.Data
         public DbSet<DonationHistory> DonationHistories => Set<DonationHistory>();
         //public DbSet<BloodRequest> BloodRequests { get; set; }
         public DbSet<BloodRequest> BloodRequests => Set<BloodRequest>();
+        public DbSet<PasswordResetToken> PasswordResetTokens => Set<PasswordResetToken>();
+        //public DbSet<SmtpSettings> SmtpSettings => Set<SmtpSettings>();
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

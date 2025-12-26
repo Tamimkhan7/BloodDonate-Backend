@@ -3,6 +3,7 @@ using BloodBankAPI.DTOs;
 using BloodBankAPI.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
 
 namespace BloodBankAPI.Controllers
@@ -12,16 +13,58 @@ namespace BloodBankAPI.Controllers
     public class BloodRequestsController : ControllerBase
     {
         private readonly AppDbContext _context;
+        private readonly EmailService _email;
 
-        public BloodRequestsController(AppDbContext context)
+        public BloodRequestsController(AppDbContext context, EmailService email)
         {
             _context = context;
+            _email = email;
         }
+
+        // ADMIN → Reply to request
+
+        [Authorize(Roles = "Admin")]
+        [HttpPut("admin/{id}")]
+        public async Task<IActionResult> Reply(Guid id, AdminBloodRequestReplyDto dto)
+        {
+            var req = await _context.BloodRequests
+                .Include(x => x.User)
+                .FirstOrDefaultAsync(x => x.Id == id);
+
+            if (req == null) return NotFound("Blood request not found.");
+
+            req.Status = dto.Status;
+            req.AdminReply = dto.AdminReply;
+
+            await _context.SaveChangesAsync();
+
+            // 📩 Send email
+            if (!string.IsNullOrEmpty(req.User.Email))
+            {
+                _email.Send(
+                    req.User.Email,
+                    $"Blood Request {dto.Status}",
+                    $@"
+                    <h3>Your blood request has been {dto.Status}</h3>
+                    <p><b>Blood Group:</b> {req.BloodGroup}</p>
+                    <p><b>Bags:</b> {req.Bags}</p>
+                    <p><b>Admin Message:</b> {dto.AdminReply}</p>
+                    "
+                );
+            }
+
+            return Ok(req);
+        }
+
+
+        // Helper → Get current user Id
 
         private Guid GetUserId() =>
             Guid.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)!);
 
+
         // USER → Create request
+
         [Authorize]
         [HttpPost]
         public async Task<IActionResult> Create(CreateBloodRequestDto dto)
@@ -42,7 +85,9 @@ namespace BloodBankAPI.Controllers
             return Ok(request);
         }
 
+
         // USER → My requests
+
         [Authorize]
         [HttpGet("me")]
         public IActionResult MyRequests()
@@ -58,28 +103,17 @@ namespace BloodBankAPI.Controllers
         }
 
         // ADMIN → All requests
+
         [Authorize(Roles = "Admin")]
         [HttpGet("admin")]
         public IActionResult GetAll()
         {
-            return Ok(_context.BloodRequests
+            var data = _context.BloodRequests
+                .Include(x => x.User)
                 .OrderByDescending(x => x.CreatedAt)
-                .ToList());
-        }
+                .ToList();
 
-        // ADMIN → Reply
-        [Authorize(Roles = "Admin")]
-        [HttpPut("admin/{id}")]
-        public async Task<IActionResult> Reply(Guid id, AdminBloodRequestReplyDto dto)
-        {
-            var req = await _context.BloodRequests.FindAsync(id);
-            if (req == null) return NotFound();
-
-            req.Status = dto.Status;
-            req.AdminReply = dto.AdminReply;
-
-            await _context.SaveChangesAsync();
-            return Ok(req);
+            return Ok(data);
         }
     }
 }

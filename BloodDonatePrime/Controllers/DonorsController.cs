@@ -29,7 +29,7 @@ namespace BloodBankAPI.Controllers
         public async Task<IActionResult> GetMe()
         {
             var donor = await _donorService.GetByUserIdAsync(GetUserId());
-            if (donor == null) return NotFound();
+            if (donor == null) return Ok(null);
             return Ok(donor);
         }
 
