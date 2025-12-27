@@ -326,3 +326,4 @@ C:\Users\Tamim\OneDrive\Desktop\API Project\BloodBank\BloodDonatePrime\BloodDona
 C:\Users\Tamim\OneDrive\Desktop\API Project\BloodBank\BloodDonatePrime\BloodDonatePrime\obj\Debug\net9.0\BloodBankAPI.pdb
 C:\Users\Tamim\OneDrive\Desktop\API Project\BloodBank\BloodDonatePrime\BloodDonatePrime\obj\Debug\net9.0\BloodBankAPI.genruntimeconfig.cache
 C:\Users\Tamim\OneDrive\Desktop\API Project\BloodBank\BloodDonatePrime\BloodDonatePrime\obj\Debug\net9.0\ref\BloodBankAPI.dll
+C:\Users\Tamim\OneDrive\Desktop\API Project\BloodBank\BloodDonatePrime\BloodDonatePrime\bin\Debug\net9.0\BloodBankAPI.staticwebassets.runtime.json

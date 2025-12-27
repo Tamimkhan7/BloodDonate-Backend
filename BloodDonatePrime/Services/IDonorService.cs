@@ -17,6 +17,8 @@ namespace BloodBankAPI.Services
             string? district);
         Task UpdateLocationAsync(Guid donorId, double lat, double lon);
         Task<List<string>> GetAvailableDistrictsAsync();
+
+        Task SaveAsync();
     }
 
 

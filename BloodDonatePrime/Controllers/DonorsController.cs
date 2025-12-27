@@ -13,6 +13,61 @@ namespace BloodBankAPI.Controllers
         private readonly IDonorService _donorService;
         public DonorsController(IDonorService donorService) { _donorService = donorService; }
 
+
+
+        [HttpPost("me/photo")]
+        [Authorize]
+        public async Task<IActionResult> UploadPhoto([FromForm] IFormFile photo)
+        {
+            if (photo == null || photo.Length == 0)
+                return BadRequest("No photo uploaded");
+
+            //  Validation
+            var allowedTypes = new[] { ".jpg", ".jpeg", ".png" };
+            var ext = Path.GetExtension(photo.FileName).ToLower();
+
+            if (!allowedTypes.Contains(ext))
+                return BadRequest("Only JPG, JPEG, PNG allowed");
+
+            if (photo.Length > 2 * 1024 * 1024)
+                return BadRequest("Max image size is 2MB");
+
+            var donor = await _donorService.GetByUserIdAsync(GetUserId());
+            if (donor == null) return NotFound("Donor not found");
+
+            var uploadPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads");
+            if (!Directory.Exists(uploadPath))
+                Directory.CreateDirectory(uploadPath);
+
+            // Delete old photo
+            if (!string.IsNullOrEmpty(donor.PhotoUrl))
+            {
+                var oldPath = Path.Combine(
+                    Directory.GetCurrentDirectory(),
+                    "wwwroot",
+                    donor.PhotoUrl.TrimStart('/')
+                );
+
+                if (System.IO.File.Exists(oldPath))
+                    System.IO.File.Delete(oldPath);
+            }
+
+            var fileName = $"{Guid.NewGuid()}{ext}";
+            var filePath = Path.Combine(uploadPath, fileName);
+
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                await photo.CopyToAsync(stream);
+            }
+
+            donor.PhotoUrl = "/uploads/" + fileName;
+            await _donorService.SaveAsync();
+
+            return Ok(new { photoUrl = donor.PhotoUrl });
+        }
+
+
+
         private Guid GetUserId() =>
             Guid.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)!);
 

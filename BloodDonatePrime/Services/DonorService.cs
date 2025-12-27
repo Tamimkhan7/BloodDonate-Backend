@@ -166,6 +166,12 @@ namespace BloodBankAPI.Services
         }
 
         private double ToRadians(double deg) => deg * (Math.PI / 180);
+
+
+        public async Task SaveAsync()
+        {
+            await _db.SaveChangesAsync();
+        }
     }
 
 }
