@@ -3,6 +3,7 @@ Blood Bank Management System
 A full-stack Blood Bank Management System built to efficiently connect blood donors with recipients. The system provides separate dashboards for Donors and Administrators, ensuring secure, role-based access and smooth management of blood donation activities.
 
 🚀 Features
+
 👤 Donor Features
 
 Secure authentication (Login, Register, Forgot Password)
@@ -23,6 +24,7 @@ Search for available blood donors
 
 Safety guidelines and awareness page
 
+
 🛡️ Admin Features
 
 Dedicated admin dashboard
@@ -39,6 +41,7 @@ Manage contact and inquiry messages
 
 Role-based protected routing for enhanced security
 
+
 🧑‍💻 Tech Stack
 Frontend
 
@@ -50,6 +53,7 @@ Tailwind CSS
 
 Axios
 
+
 Backend
 
 ASP.NET Core Web API
@@ -60,6 +64,7 @@ SQL Server
 
 JWT Authentication
 
+
 🔐 Authentication & Authorization
 
 JWT-based authentication system
@@ -69,3 +74,4 @@ Role-based access control (Admin, Donor)
 Protected routes for authenticated users
 
 Admin-only routes secured using a custom AdminRoute
+
