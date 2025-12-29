@@ -68,6 +68,14 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
+//camelCase FIX
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.PropertyNamingPolicy =
+        System.Text.Json.JsonNamingPolicy.CamelCase;
+    });
+
 // CORS
 builder.Services.AddCors(options =>
 {

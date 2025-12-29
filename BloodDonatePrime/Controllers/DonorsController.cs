@@ -13,6 +13,45 @@ namespace BloodBankAPI.Controllers
         private readonly IDonorService _donorService;
         public DonorsController(IDonorService donorService) { _donorService = donorService; }
 
+        private Guid GetUserId() =>
+           Guid.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)!);
+
+
+
+        [HttpPost("me/donation")]
+        [Authorize]
+        public async Task<IActionResult> AddDonation([FromBody] DonationHistoryDto dto)
+        {
+            try
+            {
+                var donation = await _donorService.AddDonationAsync(GetUserId(), dto);
+                return Ok(donation);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
+        }
+
+
+
+        [HttpGet("me/donations")]
+        [Authorize]
+        public async Task<IActionResult> GetMyDonations()
+        {
+            var history = await _donorService.GetDonationHistoryAsync(GetUserId());
+            var donor = await _donorService.GetByUserIdAsync(GetUserId());
+
+            var nextAvailableDate = DonorHelper.NextAvailableDate(donor?.LastDonationDate);
+
+            return Ok(new
+            {
+                TotalDonations = history.Count,
+                LastDonationDate = donor?.LastDonationDate,
+                NextAvailableDate = nextAvailableDate,
+                Donations = history
+            });
+        }
 
 
         [HttpPost("me/photo")]
@@ -66,10 +105,6 @@ namespace BloodBankAPI.Controllers
             return Ok(new { photoUrl = donor.PhotoUrl });
         }
 
-
-
-        private Guid GetUserId() =>
-            Guid.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)!);
 
         [HttpPost("me")]
         [Authorize]

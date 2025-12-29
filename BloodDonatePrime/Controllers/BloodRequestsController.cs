@@ -21,7 +21,7 @@ namespace BloodBankAPI.Controllers
             _email = email;
         }
 
-        // ADMIN → Reply to request
+        // ADMIN -- Reply to request
 
         [Authorize(Roles = "Admin")]
         [HttpPut("admin/{id}")]
@@ -38,7 +38,7 @@ namespace BloodBankAPI.Controllers
 
             await _context.SaveChangesAsync();
 
-            // 📩 Send email
+            //  Send email
             if (!string.IsNullOrEmpty(req.User.Email))
             {
                 _email.Send(
@@ -57,13 +57,13 @@ namespace BloodBankAPI.Controllers
         }
 
 
-        // Helper → Get current user Id
+        // Helper --- Get current user Id
 
         private Guid GetUserId() =>
             Guid.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)!);
 
 
-        // USER → Create request
+        // USER -- Create request
 
         [Authorize]
         [HttpPost]
@@ -86,7 +86,7 @@ namespace BloodBankAPI.Controllers
         }
 
 
-        // USER → My requests
+        // USER -- My requests
 
         [Authorize]
         [HttpGet("me")]
@@ -102,7 +102,7 @@ namespace BloodBankAPI.Controllers
             return Ok(data);
         }
 
-        // ADMIN → All requests
+        // ADMIN -- All requests
 
         [Authorize(Roles = "Admin")]
         [HttpGet("admin")]

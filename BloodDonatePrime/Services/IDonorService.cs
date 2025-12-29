@@ -17,8 +17,15 @@ namespace BloodBankAPI.Services
             string? district);
         Task UpdateLocationAsync(Guid donorId, double lat, double lon);
         Task<List<string>> GetAvailableDistrictsAsync();
+        //public static bool IsAvailAble(DateTime? lastDonationDate);
+        //public static DateTime? NextAvailableDate(DateTime? lastDonaionDate);
 
         Task SaveAsync();
+
+
+        //  donation handling
+        Task<DonationHistory> AddDonationAsync(Guid donorId, DonationHistoryDto dto);
+        Task<List<DonationHistory>> GetDonationHistoryAsync(Guid donorId);
     }
 
 

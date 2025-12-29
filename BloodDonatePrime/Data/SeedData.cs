@@ -1,6 +1,5 @@
 ﻿using BloodBankAPI.Models;
 using Microsoft.EntityFrameworkCore;
-using Org.BouncyCastle.Crypto.Generators;
 
 namespace BloodBankAPI.Data
 {

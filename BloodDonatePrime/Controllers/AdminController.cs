@@ -39,7 +39,7 @@ namespace BloodBankAPI.Controllers
             var donor = await _db.Donors.FirstOrDefaultAsync(d => d.UserId == userId);
             if (donor == null) return NotFound("Donor not found");
 
-            // ===== BASIC INFO =====
+            //  BASIC INFO 
             donor.BloodGroup = dto.BloodGroup ?? donor.BloodGroup;
             donor.Age = dto.Age ?? donor.Age;
             donor.Gender = dto.Gender ?? donor.Gender;
@@ -48,7 +48,7 @@ namespace BloodBankAPI.Controllers
             donor.DateOfBirth = dto.DateOfBirth ?? donor.DateOfBirth;
             donor.NationalIdNumber = dto.NationalIdNumber ?? donor.NationalIdNumber;
 
-            // ===== ADDRESS =====
+            //  ADDRESS 
             donor.PresentAddress = dto.PresentAddress ?? donor.PresentAddress;
             donor.PresentPoliceStation = dto.PresentPoliceStation ?? donor.PresentPoliceStation;
             donor.PresentDistrict = dto.PresentDistrict ?? donor.PresentDistrict;
@@ -56,15 +56,15 @@ namespace BloodBankAPI.Controllers
             donor.PermanentPoliceStation = dto.PermanentPoliceStation ?? donor.PermanentPoliceStation;
             donor.PermanentDistrict = dto.PermanentDistrict ?? donor.PermanentDistrict;
 
-            // ===== LOCATION =====
+            //  LOCATION 
             donor.Latitude = dto.Latitude ?? donor.Latitude;
             donor.Longitude = dto.Longitude ?? donor.Longitude;
 
-            // ===== DONATION =====
+            //  DONATION 
             donor.LastDonationDate = dto.LastDonationDate ?? donor.LastDonationDate;
             donor.IsAvailable = dto.IsAvailable ?? donor.IsAvailable;
 
-            // ===== PHOTO & MEDICAL =====
+            // PHOTO & MEDICAL 
             donor.PhotoUrl = dto.PhotoUrl ?? donor.PhotoUrl;
             donor.MedicalInfo = dto.MedicalInfo ?? donor.MedicalInfo;
 

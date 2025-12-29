@@ -29,6 +29,11 @@ namespace BloodBankAPI.Data
                 .WithOne(d => d.User)
                 .HasForeignKey<Donor>(d => d.UserId);
 
+            modelBuilder.Entity<Donor>()
+                .HasMany(d => d.DonationHistories)
+                .WithOne(h => h.Donor)
+                .HasForeignKey(h => h.DonorId);
+
             base.OnModelCreating(modelBuilder);
         }
     }

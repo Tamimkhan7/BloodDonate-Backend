@@ -150,6 +150,55 @@ namespace BloodBankAPI.Services
             };
         }
 
+        public async Task SaveAsync()
+        {
+            await _db.SaveChangesAsync();
+        }
+
+
+        public async Task<DonationHistory> AddDonationAsync(Guid userId, DonationHistoryDto dto)
+        {
+            var donor = await _db.Donors.FirstOrDefaultAsync(d => d.UserId == userId);
+            if (donor == null) throw new Exception("Donor not found");
+
+            if (!DonorHelper.CanDonate(donor.LastDonationDate))
+                throw new Exception(
+                    $"Next donation available on {DonorHelper.NextAvailableDate(donor.LastDonationDate):dd MMM yyyy}"
+                );
+
+            var donation = new DonationHistory
+            {
+                DonorId = donor.Id,
+                Date = dto.Date,
+                Location = dto.Location,
+                Amount = dto.Amount
+            };
+
+            _db.DonationHistories.Add(donation);
+            donor.LastDonationDate = dto.Date;
+            donor.IsAvailable = false;
+
+            await _db.SaveChangesAsync();
+            return donation;
+        }
+
+
+        public async Task<List<DonationHistory>> GetDonationHistoryAsync(Guid userId)
+        {
+            var donor = await _db.Donors.FirstOrDefaultAsync(d => d.UserId == userId);
+            if (donor == null)
+                return new List<DonationHistory>();
+
+            return await _db.DonationHistories
+                .Where(d => d.DonorId == donor.Id)
+                .OrderByDescending(d => d.Date)
+                .ToListAsync();
+        }
+
+
+
+
+        //calculate distance between two coordinates in kilometers
         private double DistanceInKm(double lat1, double lon1, double lat2, double lon2)
         {
             double R = 6371;
@@ -165,13 +214,8 @@ namespace BloodBankAPI.Services
             return Math.Round(R * c, 2);
         }
 
+        //calculated in radians
         private double ToRadians(double deg) => deg * (Math.PI / 180);
-
-
-        public async Task SaveAsync()
-        {
-            await _db.SaveChangesAsync();
-        }
     }
 
 }

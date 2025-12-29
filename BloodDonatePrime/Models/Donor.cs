@@ -42,5 +42,7 @@ namespace BloodBankAPI.Models
 
         // Medical info
         public string? MedicalInfo { get; set; }
+
+        public List<DonationHistory> DonationHistories { get; set; } = new();
     }
 }
