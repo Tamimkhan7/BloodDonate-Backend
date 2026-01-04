@@ -1,77 +1,37 @@
-Blood Bank Management System
+🩸 Blood Bank Management System
 
-A full-stack Blood Bank Management System built to efficiently connect blood donors with recipients. The system provides separate dashboards for Donors and Administrators, ensuring secure, role-based access and smooth management of blood donation activities.
+Excited to share my full-stack project — Blood Bank Management System, designed to efficiently connect blood donors with recipients through a secure, role-based platform. The system ensures smooth management of blood donation activities with separate dashboards for Donors and Administrators, backed by strong authentication and authorization.
 
-🚀 Features
+🚀 Key Features
 
-👤 Donor Features
-
-Secure authentication (Login, Register, Forgot Password)
-
+👤 Donor Module
+Secure authentication (Login, Registration, Forgot Password)
 Personalized donor dashboard
-
 Profile management
-
 Blood donation form submission
-
 Donation history tracking
-
-Blood request submission
-
-View personal blood request history
-
+Blood request submission & history view
 Search for available blood donors
+Safety guidelines & awareness section
 
-Safety guidelines and awareness page
-
-
-🛡️ Admin Features
-
+🛡️ Admin Module
 Dedicated admin dashboard
-
-User (donor) management
-
-View and manage all blood requests
-
-View and manage donation history of all donors
-
+Donor and user management
+View & manage all blood requests
+Manage donation history of all donors
 Edit and update donation records
-
-Manage contact and inquiry messages
-
+Handle contact & inquiry messages
 Role-based protected routing for enhanced security
 
+🔐 Authentication & Security
+JWT-based authentication
+Role-based access control (Admin, Donor)
+Protected routes for authenticated users
+Admin-only routes secured using a custom AdminRoute
+Password reset and email communication via SMTP
 
 🧑‍💻 Tech Stack
-Frontend
-
-React.js
-
-React Router DOM
-
-Tailwind CSS
-
-Axios
-
-
-Backend
-
-ASP.NET Core Web API
-
-Entity Framework Core
-
-SQL Server
-
-JWT Authentication
-
-
-🔐 Authentication & Authorization
-
-JWT-based authentication system
-
-Role-based access control (Admin, Donor)
-
-Protected routes for authenticated users
-
-Admin-only routes secured using a custom AdminRoute
-
+Frontend: React.js, React Router DOM, Tailwind CSS, Axios
+Backend: ASP.NET Core Web API, Entity Framework Core
+Database: SQL Server
+Security: JWT Authentication
